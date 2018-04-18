@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/everwise/slack_transformer'
   s.authors = ['Eric Wang']
   s.email = ['eric@geteverwise.com']
-  s.files = []
+  s.files = Dir['lib/slack_transformer/html/*.rb']
 
   s.add_development_dependency 'rspec', '~> 3.7.0'
 end
