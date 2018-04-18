@@ -7,4 +7,6 @@ Gem::Specification.new do |s|
   s.authors = ['Eric Wang']
   s.email = ['eric@geteverwise.com']
   s.files = []
+
+  s.add_development_dependency 'rspec', '~> 3.7.0'
 end
