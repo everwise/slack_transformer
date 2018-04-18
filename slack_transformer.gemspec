@@ -8,5 +8,7 @@ Gem::Specification.new do |s|
   s.email = ['eric@geteverwise.com']
   s.files = Dir['lib/slack_transformer/html/*.rb']
 
+  s.add_runtime_dependency 'nokogiri', '~> 1.8.1'
+
   s.add_development_dependency 'rspec', '~> 3.7.0'
 end
