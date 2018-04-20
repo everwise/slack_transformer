@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
 
   s.files = [
     *Dir['lib/slack_transformer/*.rb'],
-    *Dir['lib/slack_transformer/html/*.rb']
+    *Dir['lib/slack_transformer/html/*.rb'],
+    *Dir['lib/slack_transformer/slack/*.rb']
   ]
 
   s.add_runtime_dependency 'nokogiri', '~> 1.8.1'

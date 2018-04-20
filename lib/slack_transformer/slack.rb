@@ -1,0 +1,7 @@
+require 'slack_transformer/slack/blockquote'
+require 'slack_transformer/slack/bold'
+require 'slack_transformer/slack/code'
+require 'slack_transformer/slack/italics'
+require 'slack_transformer/slack/preformatted'
+require 'slack_transformer/slack/quote'
+require 'slack_transformer/slack/strikethrough'
