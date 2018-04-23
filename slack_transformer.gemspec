@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.email = ['eric@geteverwise.com']
 
   s.files = [
+    'lib/slack_transformer.rb',
     *Dir['lib/slack_transformer/*.rb'],
     *Dir['lib/slack_transformer/html/*.rb'],
     *Dir['lib/slack_transformer/slack/*.rb']
