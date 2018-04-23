@@ -1,7 +1,7 @@
 require 'nokogiri'
 
 module SlackTransformer
-  module Html
+  class Html
     class Lists
       attr_reader :input
 

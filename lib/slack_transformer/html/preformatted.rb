@@ -1,5 +1,5 @@
 module SlackTransformer
-  module Html
+  class Html
     class Preformatted
       attr_reader :input
 

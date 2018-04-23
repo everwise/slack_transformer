@@ -1,5 +1,5 @@
 module SlackTransformer
-  module Html
+  class Html
     class Bold
       attr_reader :input
 
