@@ -1,5 +1,5 @@
 module SlackTransformer
-  module Slack
+  class Slack
     class Italics
       attr_reader :input
 
