@@ -27,12 +27,12 @@ SlackTransformer::Html.new('<b><i>important stuff</i></b>').to_slack
 
 `SlackTransformer::Html` applies the following transformations in the order listed:
 
-* bold
-* italics
-* strikethrough
-* code
-* preformatted
-* lists
+* [bold](#bold)
+* [italics](#italics)
+* [strikethrough](#strikethrough)
+* [code](#code)
+* [preformatted](#preformatted)
+* [lists](#lists)
 
 Note: Slack doesn't support underline.
 
@@ -108,14 +108,16 @@ SlackTransformer::Slack.new('*_important stuff_*').to_html
 
 `SlackTransformer::Slack` applies the following transformations in the order listed:
 
-* bold
-* italics
-* strikethrough
-* code
-* preformatted
-* blockquote*
 
-\* Adjacent or nested blockquotes may not behave as expected.
+* [bold](#bold-1)
+* [italics](#italics-1)
+* [strikethrough](#strikethrough-1)
+* [code](#code-1)
+* [preformatted](#preformatted-1)
+* [quote](#quote)*
+* [blockquote](#blockquote)*
+
+\* Adjacent or nested quotes and blockquotes may not behave as expected.
 
 Each transformation can also be applied individually.
 
@@ -177,8 +179,11 @@ The following transformations are either not yet supported or partially supporte
 * [ ] blockquote
 
 **Slack to HTML**
-* [ ] blockquote
+* [ ] quote*
+* [ ] blockquote*
 * [ ] lists
+
+\* Adjacent or nested quotes and blockquotes may not behave as expected.
 
 ## License
 
