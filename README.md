@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/slack_transformer.svg)](https://rubygems.org/gems/slack_transformer)
+
 # SlackTransformer
 
 Tools for working with HTML, mrkdwn, and Slack commands in Ruby
