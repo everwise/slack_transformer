@@ -25,8 +25,8 @@ module SlackTransformer
     end
 
     def to_html
-      html = TRANSFORMERS.reduce(input) do |html, transformer|
-        transformer.new(html).to_html
+      html = TRANSFORMERS.reduce(input) do |working_html, transformer|
+        transformer.new(working_html).to_html
       end
 
       "<p>#{html.gsub("\n", '<br>')}</p>"
