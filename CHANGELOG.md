@@ -3,6 +3,7 @@
 ## Main (unreleased)
 
 * Updated nokogiri dependency from (~> 1.10.1 to ~> 1.11.4)
+* Add remark configuration and address lint errors
 
 ## 1.0.1 (2019-02-05)
 

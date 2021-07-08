@@ -123,7 +123,6 @@ SlackTransformer::Slack.new('*_important stuff_*').to_html
 
 Each transformation can also be applied individually.
 
-
 ### Bold
 
 ```ruby
