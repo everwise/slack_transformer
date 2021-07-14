@@ -1,6 +1,6 @@
 module SlackTransformer
   class Html
-    class Italics
+    class Unsupported
       attr_reader :input
 
       def initialize(input)
@@ -8,7 +8,8 @@ module SlackTransformer
       end
 
       def to_slack
-        input.gsub(/<\/?(i|em)>/, '_')
+        # Filter out all remaining < > tags except for Slack links (<http://url|text> or <http://url>)
+        input.gsub(/<(.[^http][^|]*?)>/, '')
       end
     end
   end

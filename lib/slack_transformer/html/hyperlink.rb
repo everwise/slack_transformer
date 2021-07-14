@@ -1,6 +1,6 @@
 module SlackTransformer
   class Html
-    class Italics
+    class Hyperlink
       attr_reader :input
 
       def initialize(input)
@@ -8,7 +8,7 @@ module SlackTransformer
       end
 
       def to_slack
-        input.gsub(/<\/?(i|em)>/, '_')
+        input.gsub /<a [^h]*href=["']([^"']*)["'][^>]*>([^<]*)<\/a>/, "<\\1|\\2>"
       end
     end
   end

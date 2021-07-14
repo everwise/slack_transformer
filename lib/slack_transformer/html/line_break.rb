@@ -1,6 +1,6 @@
 module SlackTransformer
   class Html
-    class Italics
+    class LineBreak
       attr_reader :input
 
       def initialize(input)
@@ -8,7 +8,8 @@ module SlackTransformer
       end
 
       def to_slack
-        input.gsub(/<\/?(i|em)>/, '_')
+        # TODO: Get \n to work with Slack, per their docs it should
+        input.gsub(/<br>/, ' ')
       end
     end
   end
