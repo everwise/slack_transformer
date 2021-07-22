@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'slack_transformer'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
   s.license = 'MIT'
   s.summary = 'Transform HTML into Slack-ready mrkdwn and back'
   s.homepage = 'https://github.com/everwise/slack_transformer'

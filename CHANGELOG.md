@@ -1,6 +1,6 @@
 # Change log
 
-## Main (unreleased)
+## 1.0.2 (2021-07-21)
 
 * Updated nokogiri dependency from (~> 1.10.1 to ~> 1.11.4)
 * Add remark configuration and address lint errors
