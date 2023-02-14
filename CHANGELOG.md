@@ -1,5 +1,9 @@
 # Change log
 
+## 1.0.3 (2023-02-14)
+
+* Updated nokogiri dependency from (~> 1.11.4 to ~> 1.14.0) to address Ruby 3.2 support
+
 ## 1.0.2 (2021-07-21)
 
 * Updated nokogiri dependency from (~> 1.10.1 to ~> 1.11.4)
