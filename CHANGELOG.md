@@ -1,4 +1,7 @@
 # Change log
+## 1.0.4 (2023-08-14)
+
+* Updated nokogiri dependency from (~> 1.14.0 to < 2.0) for flexibility
 
 ## 1.0.3 (2023-02-14)
 
