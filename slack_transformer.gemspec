@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
     *Dir['lib/slack_transformer/slack/*.rb']
   ]
 
-  s.add_runtime_dependency 'nokogiri', '~> 1.14.0'
+  s.add_runtime_dependency 'nokogiri', '< 2.0'
 
   s.add_development_dependency 'rspec', '~> 3.7.0'
 end
